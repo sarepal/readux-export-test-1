@@ -1,0 +1,61 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/list/readux:thgg7_00000001.jp2",
+    "resources": [
+        {
+            "@type": "oa:Annotation",
+            "motivation": "['oa:commenting']",
+            "@id": "43c47d56-c42f-4b62-96dd-84b3b96fbbb6",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "resource": {
+                "@type": "dctypes:Text",
+                "language": "en",
+                "format": "text/html",
+                "chars": "<p>sample note</p>"
+            },
+            "annotatedBy": {
+                "name": "Sara Palmer"
+            },
+            "on": {
+                "@type": "oa:SpecificResource",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=3682,1853,2381,1909"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/manifest"
+                }
+            }
+        },
+        {
+            "@type": "oa:Annotation",
+            "motivation": "['oa:commenting']",
+            "@id": "8611e79d-ed77-4496-b668-ebafc2e3a5dd",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "resource": {
+                "@type": "dctypes:Text",
+                "language": "en",
+                "format": "text/html",
+                "chars": "<p>sample note</p>"
+            },
+            "annotatedBy": {
+                "name": "Sara Palmer"
+            },
+            "on": {
+                "@type": "oa:SpecificResource",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=3682,1853,2381,1909"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/manifest"
+                }
+            }
+        }
+    ]
+}

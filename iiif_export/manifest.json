@@ -1,0 +1,108 @@
+{
+    "label": "All'Emo., e Rmo. Sigr. Pne. Colmo., Il Sig.r Cardinale Alessandro Albani Emo., e Rmo. pri",
+    "thumbnail": {
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "profile": "http://iiif.io/api/image/2/level1.json",
+            "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2"
+        },
+        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/600,/0/default.jpg"
+    },
+    "within": [
+        "https://readux.ecdsdev.org/collection/views-of-rome"
+    ],
+    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/manifest",
+    "viewingDirection": "left-to-right",
+    "description": "The online edition of this book in the public domain, i.e., not protected by copyright, has been produced by the Emory University Digital Library Publications Program. \"D.V.E. Roma il di primo del 1748\". Relief shown by hachures. \"33-34\". Shows names of buildings, plazas, churches, drainage, and other points of interest. Includes index. Variant titles: Picciola Pianta, la nuova topografia di Roma; Picciola Pianta di Roma; Topografia Di Roma Di Gio. Batt[ist]a Nolli dalla maggiore in questa minor tavola dal medesimo ridotta; Topografia Di Roma. Related Names: Giovanni Battista Piranesi 1720-1778.; Carlo Nolli -approximately 1770.",
+    "@type": "sc:Manifest",
+    "attribution": "Emory University Libraries",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Nolli, Giambattista, approximately 1692-1756."
+        },
+        {
+            "label": "Publisher",
+            "value": "Gio. Battista Nolli"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Roma"
+        },
+        {
+            "label": "Publication Date",
+            "value": "1748"
+        },
+        {
+            "label": "Notes",
+            "value": [
+                {}
+            ]
+        },
+        {
+            "label": "This manifest is hosted by Readux.",
+            "value": "https://readux.ecdsdev.org/about/"
+        },
+        {
+            "label": "Record Created",
+            "value": "2019-04-01T14:41:06.798Z"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "logo": "https://readux.ecdsdev.org/media/logos/lits-logo-web_RQSeGem.png",
+    "related": [
+        "https://readux.ecdsdev.org/volume/readux:thgg7"
+    ],
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@type": "sc:Canvas",
+                    "otherContent": [
+                        {
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/list/readux:thgg7_00000001.jp2"
+                        }
+                    ],
+                    "label": "1",
+                    "thumbnail": {
+                        "height": 250,
+                        "width": 200,
+                        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/200,/0/default.jpg"
+                    },
+                    "@id": "https://readux.ecdsdev.org/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "@id": "https://readux.ecdsdev.org/iiif/readux:thgg7/annotation/readux:thgg7_00000001.jp2",
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "profile": "https://iiif.io/api/image/2/level2.json",
+                                    "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2"
+                                },
+                                "format": "image/jpeg",
+                                "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/full/0/default.jpg",
+                                "width": 13088,
+                                "height": 9061
+                            },
+                            "on": "https://readux.ecdsdev.org/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2"
+                        }
+                    ],
+                    "width": 13088,
+                    "height": 9061
+                }
+            ],
+            "startCanvas": "https://readux.ecdsdev.org/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+            "label": "Current Page Order",
+            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/sequence/normal"
+        }
+    ],
+    "viewingHint": "paged"
+}
